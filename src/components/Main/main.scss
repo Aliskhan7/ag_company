@@ -1,0 +1,99 @@
+.main{
+  position: relative;
+  &:before{
+    content: '';
+    background-image: url('../../../public/assets/images/main-bg-line.svg');
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: 1820px 760px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1
+  }
+  &-title{
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    background: linear-gradient(148deg, rgba(109, 156, 246, 0.7) 0%, #fff 52.13%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      background: rgba(20, 28, 72, .6);
+      z-index: -2;
+      top: -550px;
+      left: -400px;
+      height: 800px;
+      width: 800px;
+      fill: rgba(20, 28, 72, 0.6);
+      filter: blur(200px);
+
+    }
+  }
+}
+.ellips-img{
+  position: absolute;
+  top: 50px;
+  height: 400px;
+  width: 700px;
+  background: rgba(20, 28, 72, .6);
+  fill: rgba(20, 28, 72, 0.6);
+  filter: blur(200px);
+}
+.form{
+  position: relative;
+  width: 465px;
+  &-input_block{
+    width: 465px;
+    height: 58px;
+    border-radius: 30px;
+    background: linear-gradient(215deg, #1B244F 0%,#273871 50%,#2C427F 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .input{
+    position: relative;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    margin-left: 1px;
+    padding: 11px 0 11px 20px;
+    border-radius: 30px;
+    background: linear-gradient(215deg, #18264a 0%, #0f1631 100%);
+    color: #eff1f6;
+    font-weight: 100;
+    outline: none;
+  }
+  .btn-input{
+    position: absolute;
+    right: 8px;
+    top: 5px;
+  }
+}
+
+.spinner{
+  animation: 1s linear 0s normal none infinite running spin;
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
