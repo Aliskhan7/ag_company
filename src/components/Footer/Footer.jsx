@@ -14,7 +14,7 @@ function Footer() {
         <div>
           <Logo />
           <span className="mt-36 inline-block text-white text-md font-thin">
-            Devoptima {data} © All rights reserved
+            AG company {data} © All rights reserved
           </span>
         </div>
         <div className="ml-auto">
