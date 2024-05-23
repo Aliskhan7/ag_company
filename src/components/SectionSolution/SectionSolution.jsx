@@ -7,18 +7,18 @@ import img3 from "../../../public/assets/images/solution-img-3.svg";
 const data = [
   {
     img: img1,
-    title: "Continuous Integration & Deployment",
-    desc: "Streamline your development process with our advanced CI/CD solutions, ensuring faster and more reliable code deployment.",
+    title: "Оптимизация бизнес-процессов:",
+    desc: "Мы анализируем ваши бизнес-процессы и внедряем инновационные решения для их оптимизации, снижая затраты и повышая эффективность.",
   },
   {
     img: img2,
-    title: "Cloud Solutions & Infrastructure Management",
-    desc: "Leverage the cloud for scalability and efficiency. We provide comprehensive cloud infrastructure management and optimization services.",
+    title: "Персонализированные стратегии",
+    desc: "Мы разрабатываем уникальные стратегии, учитывающие ваши специфические потребности и цели, обеспечивая идеальные решения для вашего бизнеса.",
   },
   {
     img: img3,
-    title: "Automated Testing & Quality Assurance",
-    desc: "Enhance product quality with our automated testing services, designed to detect issues early and reduce time-to-market.",
+    title: "Постоянная поддержка и улучшение",
+    desc: "Мы предлагаем постоянную поддержку и обновления, чтобы ваше приложение оставалось актуальным и эффективным, обеспечивая бесперебойную работу и развитие",
   },
 ];
 function SectionSolution() {
@@ -37,7 +37,7 @@ function SectionSolution() {
         {data.map((item) => {
           return (
             <div className="solution-border">
-              <div className="solution-inner rounded-2xl">
+              <div className=" rounded-2xl">
                 <Image
                   className="w-[100%]"
                   height={277}
