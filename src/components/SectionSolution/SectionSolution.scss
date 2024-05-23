@@ -16,18 +16,11 @@
 }
 .solution-border{
   border-radius: 16px;
-  background: linear-gradient(215deg, #214288 0%,#08142B 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .solution-inner{
-    width: calc(100% - 5px);
-    height: calc(100% - 5px);
-    margin-left: 3px;
-    margin-bottom: 1px;
-    border-radius: 16px;
-    background: linear-gradient(215deg, #1C2449 100%, #161D44 100%);
-    backdrop-filter: blur(48px);
-    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
-  }
+  background: linear-gradient(215deg, #1C2449 100%, #161D44 100%);
+  backdrop-filter: blur(48px);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+
 }

@@ -11,7 +11,7 @@ function Header() {
         <Menu />
         <Button
           classStyle="text-base hover:bg-blue-300 duration-150 ease-in"
-          name="Get started"
+          name="Заказать"
           bg="bg-blue-400"
           p="px-9 py-3.5"
         />

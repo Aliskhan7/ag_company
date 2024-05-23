@@ -28,7 +28,7 @@ const dataDev = [
     desc: "Мы ценим ваше время и всегда сдаем проекты вовремя, без ущерба для качества.",
   },
 ];
-function SectionDevoptima() {
+function SectionAG() {
   return (
     <section className="flex justify-between items-center gap-x-20 py-32">
       <Image width={630} src={devImg} alt="devimg" />
@@ -55,4 +55,4 @@ function SectionDevoptima() {
   );
 }
 
-export default SectionDevoptima;
+export default SectionAG;

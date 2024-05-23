@@ -1,6 +1,6 @@
 import Header from "@/components/Header/Header";
 import Main from "@/components/Main/Main";
-import SectionDevoptima from "@/components/SectionDevoptima/SectionDevoptima";
+import SectionAG from "@/components/SectionAG/SectionAG";
 import SectionSolution from "@/components/SectionSolution/SectionSolution";
 import SectionView from "@/components/SectionView/SectionView";
 import SectionAbout from "@/components/SectionAbout/SectionAbout";
@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <Main />
       <div className="container mx-auto">
-        <SectionDevoptima />
+        <SectionAG />
         <SectionSolution />
         <SectionView />
         <SectionAbout />
