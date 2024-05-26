@@ -17,28 +17,6 @@ function Footer() {
             AG company {data} © All rights reserved
           </span>
         </div>
-        <div className="ml-auto">
-          <span className="text-white text-md font-light inline-block mb-4">
-            Resources
-          </span>
-          <ul className="flex flex-col gap-y-3">
-            <li>
-              <Link className="footer-links" href="#">
-                Docs
-              </Link>
-            </li>
-            <li>
-              <Link className="footer-links" href="#">
-                Release notes
-              </Link>
-            </li>
-            <li>
-              <Link className="footer-links" href="#">
-                Security
-              </Link>
-            </li>
-          </ul>
-        </div>
         <div>
           <span className="text-white text-md font-light inline-block mb-4">
             Community
@@ -69,15 +47,6 @@ function Footer() {
               >
                 <Github />
                 GitHub
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="flex gap-x-2 items-center footer-links social-link"
-                href="#"
-              >
-                <Discourse />
-                Discourse
               </Link>
             </li>
           </ul>
