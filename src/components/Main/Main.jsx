@@ -4,8 +4,8 @@ import Image from "next/image";
 import mainBg from "../../../public/assets/images/main-bg.svg";
 function Main() {
   return (
-    <main className="main">
-      <div className="container flex justify-between items-center py-20 mx-auto gap-x-10">
+    <main className="main px-5 sm:px-0">
+      <div className="container flex justify-between items-center py-20 mx-auto gap-x-10 flex-col lg:flex-row">
         <div className="z-10">
           <h1 className="main-title">
             Воплощаем <br /> ваши идеи в цифровую реальность
