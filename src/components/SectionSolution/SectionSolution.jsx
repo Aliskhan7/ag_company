@@ -23,7 +23,7 @@ const data = [
 ];
 function SectionSolution() {
   return (
-    <section className="solution mb-8">
+    <section className="solution mb-8 px-5 sm:px-0">
       <div className="max-w-[780px] mx-auto">
         <h2 className="text-4xl text-white mb-5 text-center">
           Инновационные решения для повышения операционной эффективности
@@ -33,7 +33,7 @@ function SectionSolution() {
           бизнеса. Индивидуальные решения для роста и развития.
         </p>
       </div>
-      <div className="solution-item grid grid-cols-3 gap-x-10 mt-14">
+      <div className="solution-item grid grid-cols-1 gap-y-10 gap-x-10 mt-14 lg:grid-cols-3">
         {data.map((item) => {
           return (
             <div className="solution-border">

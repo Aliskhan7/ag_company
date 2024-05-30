@@ -30,8 +30,13 @@ const dataDev = [
 ];
 function SectionAG() {
   return (
-    <section className="flex justify-between items-center gap-x-20 py-32">
-      <Image width={630} src={devImg} alt="devimg" />
+    <section className="flex justify-between items-center gap-x-20 py-32 px-5 sm:px-0">
+      <Image
+        width={630}
+        src={devImg}
+        alt="devimg"
+        className="hidden lg:block"
+      />
       <div>
         <h2 className="text-white text-5xl font-light mb-5">Почему AG?</h2>
         <p className="text-gray-200 text-xl font-thin">

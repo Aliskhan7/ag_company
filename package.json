@@ -14,6 +14,8 @@
     "@pixi/filter-kawase-blur": "^5.1.1",
     "debounce": "^2.1.0",
     "hsl": "^0.1.1",
+    "hsl-to-hex": "^1.0.0",
+    "lodash.debounce": "^4.0.8",
     "next": "14.2.2",
     "pixi.js": "^8.1.5",
     "react": "^18",

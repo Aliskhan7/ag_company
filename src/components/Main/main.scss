@@ -23,6 +23,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
+    @media (max-width: 450px) {
+      font-size: 52px;
+      line-height: 100%;
+    }
     &:before{
       content: '';
       position: absolute;
@@ -42,7 +46,8 @@
   position: absolute;
   top: 50px;
   height: 400px;
-  width: 700px;
+  width: 100%;
+  max-width: 700px;
   background: rgba(20, 28, 72, .6);
   fill: rgba(20, 28, 72, 0.6);
   filter: blur(200px);
