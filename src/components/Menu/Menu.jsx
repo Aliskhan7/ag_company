@@ -4,14 +4,30 @@ import Link from "next/link";
 function Menu() {
   return (
     <ul className="flex gap-x-12">
-      <li className="text-gray-200 text-md hover:text-gray-100 duration-150 ease-in">
-        <Link href="#">О нас</Link>
+      <li>
+        <Link
+          aria-current="page"
+          className="text-gray-200 text-md hover:text-gray-100 duration-150 ease-in"
+          href="#"
+        >
+          О нас
+        </Link>
       </li>
-      <li className="text-gray-200 text-md hover:text-gray-100 duration-150 ease-in">
-        <Link href="#">Услуги</Link>
+      <li>
+        <Link
+          className="text-gray-200 text-md hover:text-gray-100 duration-150 ease-in"
+          href="#"
+        >
+          Услуги
+        </Link>
       </li>
-      <li className="text-gray-200 text-md hover:text-gray-100 duration-150 ease-in">
-        <Link href="#">Почему AG</Link>
+      <li>
+        <Link
+          className="text-gray-200 text-md hover:text-gray-100 duration-150 ease-in"
+          href="#"
+        >
+          Почему AG
+        </Link>
       </li>
     </ul>
   );

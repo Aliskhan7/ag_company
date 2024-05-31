@@ -44,7 +44,7 @@ function SectionAG() {
           веб-приложений, предлагая индивидуальные решения для вашего бизнеса.
           Мы гарантируем высокое качество, надёжность и соблюдение сроков.
         </p>
-        <div className="mt-12 grid grid-cols-2 grid-rows-2 gap-x-24 gap-y-10">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 grid-rows-2 gap-x-24 gap-y-10">
           {dataDev.map((data) => {
             return (
               <div>
