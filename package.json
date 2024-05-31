@@ -13,6 +13,7 @@
     "@pixi/core": "^7.4.2",
     "@pixi/filter-kawase-blur": "^5.1.1",
     "debounce": "^2.1.0",
+    "flowbite": "^2.3.0",
     "hsl": "^0.1.1",
     "hsl-to-hex": "^1.0.0",
     "lodash.debounce": "^4.0.8",
