@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Menu() {
   return (
-    <ul className="flex gap-x-12">
+    <ul className="flex gap-x-12 flex-col p-4 md:p-0 mt-4  rounded-lg bg-[#0f1631] md:bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0  dark:bg-gray-800 md:dark:bg-gray-900">
       <li>
         <Link
           aria-current="page"
