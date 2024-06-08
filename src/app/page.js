@@ -5,12 +5,12 @@ import SectionSolution from "../components/SectionSolution/SectionSolution";
 import SectionView from "../components/SectionView/SectionView";
 import SectionAbout from "../components/SectionAbout/SectionAbout";
 import Footer from "../components/Footer/Footer";
+import MainContent from "../components/MainContent/MainContent";
 
 export default function Home() {
   return (
     <div>
-      <Header />
-      <Main />
+      <MainContent />
       <div className="container mx-auto">
         <SectionAG />
         <SectionSolution />
