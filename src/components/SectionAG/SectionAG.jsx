@@ -30,7 +30,7 @@ const dataDev = [
 ];
 function SectionAG() {
   return (
-    <section className="flex justify-between items-center gap-x-20 py-32 px-5 sm:px-0">
+    <section className="flex justify-between items-center gap-x-20 my-32 px-5 sm:px-0">
       <Image
         width={630}
         src={devImg}

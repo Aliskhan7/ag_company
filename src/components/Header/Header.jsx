@@ -19,7 +19,7 @@ function Header() {
             <Button
               classStyle="text-base hover:bg-blue-300 duration-150 ease-in"
               name="Заказать"
-              bg="bg-blue-400"
+              bg="bg-transparet"
               p="px-9 py-3.5"
             />
             <button
