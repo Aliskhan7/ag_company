@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@/components/Button/Button";
+import Button from "../ui/Button/Button";
 
 function SectionAbout() {
   return (
