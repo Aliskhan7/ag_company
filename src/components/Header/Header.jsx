@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import Logo from "../../../public/assets/Logo";
-import Button from "../Button/Button";
 import Menu from "../Menu/Menu";
+import { HoverBorderGradient } from "../ui/hover-border-gradient";
 function Header() {
   const [menu, setMenu] = useState(false);
 
@@ -16,12 +16,13 @@ function Header() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Logo />
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse items-center">
-            <Button
-              classStyle="text-base hover:bg-blue-300 duration-150 ease-in"
-              name="Заказать"
-              bg="bg-transparet"
-              p="px-9 py-3.5"
-            />
+            <HoverBorderGradient
+              containerClassName="rounded-full"
+              as="button"
+              className="px-9 py-3.5 bg-transparent text-base text-white dark:text-white flex items-center space-x-2"
+            >
+              <span>Заказать</span>
+            </HoverBorderGradient>
             <button
               onClick={handlerMenu}
               type="button"
