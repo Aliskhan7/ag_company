@@ -6,6 +6,8 @@ import { ShaderGradientCanvas } from "shadergradient";
 import Gradient from "../ui/Gradient/Gradient";
 
 const MainContent = () => {
+    let a= '3'
+    a.l
   return (
     <div className="main-shadow">
       <ShaderGradientCanvas style={{ position: "absolute", height: "100vh" }}>
